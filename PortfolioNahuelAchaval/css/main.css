@@ -184,6 +184,7 @@ textarea {
   width: 100%;
   z-index: 3;
 }
+
 /*
 * ----------------------------------------------------------------------------------------
 * 02.HEADER SECTION. 
@@ -379,10 +380,8 @@ textarea {
 }
 
 .headerwrap__logo img {
-  margin-top: -55px;
-  width: 400px; /* Ajusta el ancho según tus necesidades */
-  height: auto; /* Mantener la proporción original */
-  /* Otros estilos personalizados */
+  max-width: 80%; /* Ajusta el tamaño máximo del logo para dispositivos móviles */
+  height: auto;
 }
 
 /*
